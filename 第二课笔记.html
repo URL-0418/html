@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>第二课笔记</title>
+		<link rel="icon"  href="拼图Logo.ico"/>
+	</head>
+	<body>
+		<h1 align="center">击壤歌</h1><br>
+		<p align="center">佚名 〔先秦〕</p>
+		<p align="center">
+		日出而作，日入而息。<br>
+		凿井而饮，耕田而食。<br>
+		帝力于我何有哉！<br>
+		
+		<p align="center">
+			<img src="./HTML第二课笔记/学吧.jpg"width="500PX"title="学吧，学无止境，太深了"alt="狗东西" />
+			
+		</p>
+		
+		</p>
+		<br>
+		
+		<hr >
+		
+		<h1>有关文字标签</h1>
+		
+		<ul>
+			<li>
+				<h2>换行标签</h2>
+				如果将有必要换行显示的文字不加换行代码的话，浏览器无法按照文本格式样式直接换行<br>
+				需要添加换行标签&lt;br&gt;才能够实现换行 <br>
+				<br>
+				总结：浏览器遇到&lt;br&gt;标签就会显示渲染为换行的效果 <br>
+				
+				<h3>水平分割线标签</h3>
+				&lt;hr&gt;
+			</li>
+		</ul>
+		
+	
+		
+		<ul>
+			<li>
+				<h2>段落标签</h2>
+				&lt;p&gt; &lt;/p&gt; 是段落标签，其包裹的文字段落可以实现在文字上下留出行距空间 <br>
+				注意：&lt;p&gt;  &lt;/p&gt;标签默认具有换行的效果，同时上下文之间的行距也会大于正文 <br>
+				&emsp;&emsp;&emsp;&lt;p&gt;&lt;/p&gt;标签内部可以嵌套其他标签
+				<h3>示例：</h3>
+				&lt;p&gt; &emsp;  <br>
+					文字&lt;br&gt; <br>
+					文字&lt;br&gt; <br>
+				&lt;/p&gt; <br>
+				<h3>或者：</h3>
+				&lt;p align="center"&gt; <br>
+					文字&lt;br&gt; <br>
+					文字&lt;br&gt; <br>
+				&lt;/p&gt; <br>
+				
+				<h3>同类段落标签&lt;pre&gt; </h3>
+				&lt;pre&gt;&lt;/pre&gt;是同样的段落标签，同样有段落行间距以及可以嵌套其他标签的效果， <br>
+				与&lt;p&gt;标签不同的是他可以保留文本格式直接输出，但不常用 <br>
+			</li>
+		</ul>
+		
+	
+		
+		<ul>
+			<li>
+				<h2>居中标签</h2>
+				对于标题，我们可以在&lt;h&gt;标签中添加属性align="center"  ,这样文字即自动适配显示窗口大小自动居中<br>
+				<br>
+				示例：&lt;h1 align="center"&gt; 这里是标题文字&lt;/h1&gt; <br>
+				<h3>靠右对齐标签</h3>
+				靠右对齐标签&lt;h1 align="right"&gt;这里是标题文字&lt;/h1&gt;<br>
+				注意：html默认为靠左对齐 <br>
+				<h3>段落居中标签</h3>
+				段落居中标签&lt;p align="center"&gt;这里是标题文字&lt;/p&gt;
+			</li>
+		</ul>
+		
+		
+		
+		<ul>
+			<li>
+				<h2>字体效果标签</h2>
+				<h3>标题标签</h3>
+				如果需要标题正文的字体效果显示不一样且有加粗放大效果，则可以通过使用&lt;H1&gt;至&lt;H6&gt; <br>
+				标签来实现，相对应的1-6数字则是表示不同层级的标题效果，字号依次从大到小 <br>
+				但是使用了标题标签后，字体之间的行间距也会相应的增大<br>
+				<br>
+				总结：&lt;H1&gt;至&lt;H6&gt;标签所包裹的文字可以实现加粗放大的标题效果，其中&lt;H6&gt;字体比正文字体小 <br>
+				<h3>字体标签</h3>
+				<b>&lt;b&gt;标签可实现字体加粗效果</b> <br>
+				<u>英文Bold的字母开头</u> <br>
+				<br>
+				<b>&lt;i&gt;标签可实现斜体效果</b> <br>
+				<u>英文Itallic的字母开头</u> <br>
+				<br>
+				<b>&lt;u&gt;标签可实现斜体效果</b> <br>
+				<u>英文Unberline的字母开头</u> <br>
+				<br>
+				<b>&lt;sub&gt;&lt;sup&gt;标签可实现上下角标效果</b> <br>
+				<b>示例：</b>
+				X <sub>1</sub>+Y <sup>2</sup>=100 <br>
+				写法为X &lt;sub&gt;1&lt;/sub&gt;+Y &lt;sup&gt;2&lt;/sup&gt;=100 <br>
+			</li>
+		</ul>
+		
+		
+		
+		<ul>
+			<li>
+			<h2>特殊字符标签&XXXX</h2>
+			说明：特殊字符也被称为“预留字符”，在HTML内容中不能使用小于号（&lt;）与大于号（&gt;） <br>
+			因为浏览器会<b>误认为</b>他们是标签。如果希望正确显示预留字符，我们必须在HTML源代码中使用<br>
+			<b>字符实体(character&emsp;entities)。</b><br>
+			</li>
+		</ul>
+		
+		<hr >
+		
+		<h1>有关图片标签</h1>
+		<ul>
+			<li>
+				<h2>控制图片大小</h2>	
+				<h3>控制图片百分比。随窗口大小占比而变化 </h3>
+				&lt; img src="XXX.JPG"width="X%"&gt;<br>
+				
+				<h3>控制图片像素分辨率，不随窗口变化而变化</h3>
+				&lt; img src="XXX.JPG"width="XPX"&gt; <br>
+				
+				<h3>控制图片居中显示图片</h3>
+				&lt; p align="center"&gt; <br>
+				&emsp;&lt; img src="XXX.JPG"width="XPX"/&gt;  <br>
+				&lt;/p&gt; <br>
+				
+				<h3>控制图片居中显示图片，并且鼠标悬停时显示图片主题名字</h3>
+				&lt; p align="center"&gt; <br>
+				&emsp;&lt; img src="XXX.JPG"width="XPX"title="图片主题名字/"&gt; <br>
+				&lt;/p&gt; <br>
+				
+				<h3>控制图片居中显示图片，并且鼠标悬停时显示图片主题名字，在不能加载图片时显示图片文字说明</h3>
+				&lt; p align="center"&gt;  <br>
+				&emsp;&lt; img src="XXX.JPG"width="XPX"title="图片主题名字/"alt="图片说明"&gt;  <br>
+				&lt;/p&gt; <br>
+				<br>
+			</ul>
+			
+			<hr >
+			
+			<ul>
+				<li>
+					<h2>图片的两种引入方式</h2>
+					<h3>一.相对路径</h3>
+					相对路径指的是通过当前网页文件所在路径，定位其他文件的路径表达方式 <br>
+					./表示当前网页所在的文件夹 <br>
+					../则表示的是上一层文件夹 <br>
+					<h3>二.绝对路径</h3>
+					绝对路径指的是完整的路径，在网络上指的是以HTTP或者是HTTPS开头的完整 <br>
+					网址，来定位文件路径的表达方式<br>
+					<br>
+					
+					<b>总结：不论是相对路径，还是绝对路径，都是网络资源（图片、网页、音频、视频等）的定位方式</b>
+				</li>
+			</ul>
+		<hr >
+		<h1>网站小图标</h1>
+		&lt;link rel="icon" href="图标名称.ico"/&gt; <br>
+		rel="icon"意思是一个小图标<br>
+		href="图标名称.ico"是链接想要显示的内容的意思<br>
+		
+	</body>
+</html>
